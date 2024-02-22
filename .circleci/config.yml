@@ -16,7 +16,7 @@ jobs:
 
       - run:
           name: Generate Fibonacci series
-          command: python generate_fibonacci.py
+          command: python fib.py
 
 workflows:
   version: 2
